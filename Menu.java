@@ -70,6 +70,11 @@ public class Menu extends JPanel implements ActionListener, MouseListener {
         gc.gridy = 2;
         // Add the button the main menu panel.
         add(exit, gc);
+        // Add the credits to the main menu.
+        JLabel credits = new JLabel("<html><center><div style=\"padding: 10px; color: white;\"><h2 style=\"font-variant: small-caps;\">Created By<br>Justin Granofsky<br>Bill Wu</h2></div></center></html>");
+        gc.gridy = 3;
+        add(credits, gc);
+
     }
 
     /**
@@ -79,7 +84,7 @@ public class Menu extends JPanel implements ActionListener, MouseListener {
     protected void paintComponent(Graphics g){
         try {
             // Try to get the image from the file.
-            BufferedImage img = ImageIO.read(new File("back.jpg"));
+            BufferedImage img = ImageIO.read(Menu.class.getResource("back.jpg"));
             // Draw the image to the screen.
             g.drawImage(img, 0, 0, 600, 600, Color.white, null);
         }catch(IOException e){}

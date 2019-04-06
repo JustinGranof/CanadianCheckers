@@ -83,7 +83,7 @@ public class Board extends JPanel {
 			if(piece.isKing()){
 				try{
 					// Get the image from the file.
-					BufferedImage img = ImageIO.read(new File("crown.png"));
+					BufferedImage img = ImageIO.read(Board.class.getResource("crown.png"));
 					// Draw the crown on top of the piece.
 					g.drawImage(img, x+3, y+5, 20, 15, null);
 				}catch(IOException e){}
