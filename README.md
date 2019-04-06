@@ -1,3 +1,4 @@
 # CanadianCheckers
-Canadian Checkers Grade 12 Project
-Allows users to play against an AI.
+Canadian Checkers Game.
+
+Utilizing AI, players are able to play against the computer.
