@@ -4,7 +4,7 @@ Canadian Checkers Game.
 Utilizing AI, players are able to play against the computer.
 
 <h3>Instructions to run CanadianCheckers</h3>
-<p>We have packaged the game into an executable jar. To run the jar follow the steps below.</p>
+<p>We have packaged the game into an executable jar. To run the jar follow the steps below:</p>
 <ol>
 <li>Clone the directory</li>
 <li>Navigate to the directory CanadianCheckers</li>
