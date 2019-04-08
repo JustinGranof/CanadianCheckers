@@ -1,8 +1,8 @@
 /**
  * Checkers.java
- * Justin Granofsky & Jerry Yu
+ * Justin Granofsky
  * 2018-05-23
- * Version 1.0
+ * Version 1.4
  * A checkers game played against a AI
  */
 
